@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: white;}
+h1, h2, h3, h4, h5, h6{font-family: Georgia, serif;}
+p{font-size: Verdana, sans-serif;}
+
+.container-fluid{margin: 0; padding: 0;}
+
+
+
+.cov19{
+    background-color: #ffca7d;
+    text-align: center;
+    padding-top: 20px;
+    height: 60px;
+}
+.cov19 a{color: darkblue;}
+.cov19{height: 100px;}
+
+.header {
+    height: 650px;
+    background-image: url(https://www.aimsindia.com/wp-content/uploads/2021/07/best-heart-hospital-in-india-asian-768x507.jpg);
+    background-size: cover;
+    /* background-position: top; */
+    position: relative;  
+  }
+  
+  .page-heading {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(92, 80, 26);
+    
+  }
+  
+  .page-heading-primary {
+    display: block;
+    font-size: 60px;
+    font-weight: 500;
+    color: #2c5d7e;
+    
+  }
+  
+  .page-heading-secondary {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+  }
+
+ nav{background-image: url(https://media1.thehungryjpeg.com/thumbs2/800_3519295_d4c8d7724a82b3a6a13ffb55b23b1d9e54c69631_healthcare-vector-medical-background-with-heart-cardiogram-cardiology.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+nav ul a{font-size: 18px; 
+         font-weight: 500; 
+         color: black;
+         color: white;}
+nav ul a:hover{border-bottom: 2px solid red; color: rgb(20, 135, 230);}
+
+.c1{color: white;}
+.dropbtn {
+  background-color:white;
+  color: #1d9585;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #1d9585;
+  cursor: pointer;
+  width: 220px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fonta span{color: white;}
+.fonta i {color: #ffca7d;}
+
+.c2 h3{font-size: 35px; font-weight: 500;}
+.c2 p {font-size: 18px;}
+
+.c3 i{color: rgb(255, 166, 0);}
+
+.pat{padding-top: 50px;}
+.patient h2{color:rgb(50, 16, 73);}
+.patient a{color: rgb(37, 133, 149); text-decoration: none;}
+.patient a:hover {color: rgb(29, 53, 53);}
+
+.pat2{padding-top: 70px;}
+.pat2 h3{font-size: 30px;}
+.pat2 h4{font-size: 25px;}
+
+.sec{background-color: rgb(47, 69, 73);}
+.sec p{font-size: 25px; color: white}
+.sec h3{text-decoration-line:underline; color:rgb(233, 229, 31);}
+.sec i{color: white}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+/* div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+} */
+
+.card{box-shadow: 5px 5px black;}
+.cardc{background-color: rgb(206, 206, 206);}
+
+footer{background-color: rgb(19, 6, 6);}
+footer a i{border-radius: 40%;}
+footer ul li a {color: white;}
+footer ul li a:hover{color: white;}
+
+
+@media only screen and (max-width: 500px) {
+  footer {
+   text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-heading{
+   padding-bottom: 200px;
+  }
+}
